@@ -1,0 +1,25 @@
+# === Texto (forçar LF e UTF-8) ===
+*.md text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.axaml text eol=lf
+*.tres text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+
+# === Binários (sem conversão) ===
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# === GitHub linguist: marcar este repo como design assets ===
+*.axaml linguist-language=XML
+*.tres linguist-language=Text
+*.svg linguist-language=SVG
+

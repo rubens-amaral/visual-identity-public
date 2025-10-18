@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🧱 Build Avalonia Theme",
+      "type": "shell",
+      "command": "dotnet build",
+      "options": {
+        "cwd": "${workspaceFolder}/avalonia"
+      },
+      "group": "build",
+      "problemMatcher": "$msCompile",
+      "detail": "Compila o tema Avalonia e valida AXAML."
+    },
+    {
+      "label": "🎨 Preview CSS Theme",
+      "type": "shell",
+      "command": "xdg-open ${workspaceFolder}/playwright/theme-playwright.css",
+      "problemMatcher": []
+    },
+    {
+      "label": "🧩 Preview Godot Theme",
+      "type": "shell",
+      "command": "xdg-open ${workspaceFolder}/godot/theme-godot.tres",
+      "problemMatcher": []
+    },
+    {
+      "label": "📦 Build All",
+      "dependsOn": [
+        "🧱 Build Avalonia Theme",
+        "🎨 Preview CSS Theme",
+        "🧩 Preview Godot Theme"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
+

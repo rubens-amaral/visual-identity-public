@@ -1,0 +1,42 @@
+{
+  // === Formatação e estilo ===
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // === Fins de linha consistentes ===
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // === Identação e exibição ===
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": false,
+
+  // === Cores do tema ===
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.iconTheme": "vscode-icons",
+
+  // === Configurações específicas por linguagem ===
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[axaml]": {
+    "editor.defaultFormatter": "AvaloniaUI.AvaloniaPreview"
+  },
+
+  // === Avalonia ===
+  "avaloniaPreviewer.runtime": "net9.0",
+  "avaloniaPreviewer.transport": "Tcp",
+  "avaloniaPreviewer.host": "127.0.0.1",
+  "avaloniaPreviewer.port": 4567
+}
+

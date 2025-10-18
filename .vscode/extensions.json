@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    // === Formatação ===
+    "esbenp.prettier-vscode",
+    "redhat.vscode-xml",
+    "streetsidesoftware.code-spell-checker",
+
+    // === Avalonia ===
+    "AvaloniaUI.AvaloniaPreview",
+    "ms-dotnettools.csharp",
+
+    // === Godot ===
+    "geequlim.godot-tools",
+
+    // === CSS / Web ===
+    "ecmel.vscode-html-css",
+    "pranaygp.vscode-css-peek",
+
+    // === Utilitários ===
+    "mhutchie.git-graph",
+    "eamodio.gitlens"
+  ]
+}
+

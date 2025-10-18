@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🧩 Avalonia Theme Preview",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/avalonia"
+      ],
+      "cwd": "${workspaceFolder}/avalonia",
+      "preLaunchTask": "🧱 Build Avalonia Theme",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "🎨 Open Playwright Theme (CSS)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "xdg-open ${workspaceFolder}/playwright/theme-playwright.css"
+    },
+    {
+      "name": "🧠 Godot Theme Preview",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "xdg-open ${workspaceFolder}/godot/theme-godot.tres"
+    }
+  ]
+}
+

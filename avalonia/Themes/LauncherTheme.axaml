@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- 🔹 Importa o dicionário de cores -->
+  <!--ResourceDictionary.MergedDictionaries>
+    <ResourceInclude Source="avares://Launcher/visual-identity/avalonia/Themes/CommonColors.axaml"/>
+  </ResourceDictionary.MergedDictionaries-->
+
+  <!-- Exemplo de recursos de cor e estilo -->
+  <Styles.Resources>
+    <Color x:Key="PrimaryColor">#FF0066CC</Color>
+    <Color x:Key="AccentColor">#FFFFC107</Color>
+  </Styles.Resources>  
+
+  <!-- 🎨 Estilos -->
+  <Style Selector="Window">
+    <Setter Property="Background" Value="{StaticResource BrushBackgroundDark}"/>
+    <Setter Property="Foreground" Value="{StaticResource BrushTextLight}"/>
+    <Setter Property="FontFamily" Value="Open Sans, Segoe UI, Ubuntu, Sans-Serif"/>
+    <Setter Property="FontSize" Value="14"/>
+  </Style>
+
+  <Style Selector="TextBlock">
+    <Setter Property="Foreground" Value="{StaticResource BrushTextLight}"/>
+  </Style>
+
+  <Style Selector="Button">
+    <Setter Property="Background" Value="{StaticResource BrushPrimary}"/>
+    <Setter Property="Foreground" Value="{StaticResource BrushTextLight}"/>
+    <Setter Property="BorderBrush" Value="{StaticResource BrushPrimaryDark}"/>
+    <Setter Property="BorderThickness" Value="1"/>
+    <Setter Property="CornerRadius" Value="4"/>
+    <Setter Property="Padding" Value="10,5"/>
+  </Style>
+
+  <Style Selector="Button:pointerover">
+    <Setter Property="Background" Value="{StaticResource BrushPrimaryDark}"/>
+  </Style>
+
+  <Style Selector="Button:disabled">
+    <Setter Property="Background" Value="{StaticResource BrushSurfaceDark}"/>
+    <Setter Property="Foreground" Value="{StaticResource BrushDisabled}"/>
+  </Style>
+
+</Styles>

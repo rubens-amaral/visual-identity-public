@@ -1,0 +1,45 @@
+:root {
+  --primary: #0A57A3;
+  --secondary: #1E88E5;
+  --accent: #FFD75A;
+  --background: #0E0E10;
+  --surface: #1A1A1D;
+  --text: #E0E0E0;
+  --muted: #888888;
+  --success: #4CAF50;
+  --warning: #FFC107;
+  --error: #F44336;
+  --radius: 6px;
+  --font: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font);
+  margin: 0;
+  padding: 1.5rem;
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  font-family: var(--font);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary);
+}
+
+input, textarea {
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--muted);
+  border-radius: var(--radius);
+  padding: 0.4rem 0.6rem;
+  font-family: var(--font);
+}

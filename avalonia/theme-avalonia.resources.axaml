@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <ResourceDictionary.MergedDictionaries>
+    <!-- 🔹 Recursos base -->
+    <ResourceInclude Source="avares://VisualIdentity/visual-identity/avalonia/Themes/CommonResources.axaml"/>
+
+    <!-- 🔹 Temas -->
+    <ResourceInclude Source="avares://VisualIdentity/visual-identity/avalonia/Themes/ThemeLight.axaml"/>
+    <ResourceInclude Source="avares://VisualIdentity/visual-identity/avalonia/Themes/ThemeDark.axaml"/>
+  </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

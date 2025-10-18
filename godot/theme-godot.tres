@@ -1,0 +1,13 @@
+[gd_resource type="Theme" load_steps=2 format=3]
+
+[resource]
+default_font = ExtResource("res://visual-identity/fonts/Inter-Regular.ttf")
+default_font_size = 14
+colors/font_color = Color(0.878, 0.878, 0.878, 1)
+colors/bg_color = Color(0.055, 0.055, 0.063, 1)
+colors/accent_color = Color(0.041, 0.341, 0.639, 1)
+colors/primary_color = Color(0.039, 0.341, 0.639, 1)
+colors/secondary_color = Color(0.118, 0.533, 0.898, 1)
+colors/success_color = Color(0.294, 0.686, 0.313, 1)
+colors/warning_color = Color(1, 0.756, 0.247, 1)
+colors/error_color = Color(0.957, 0.263, 0.212, 1)
